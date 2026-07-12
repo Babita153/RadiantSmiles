@@ -127,23 +127,6 @@ npm install
 cd backend
 npm install
 ```
-
----
-
-## Configure Environment Variables
-
-Create a `.env` file inside the `backend` folder.
-
-Example:
-
-```env
-PORT=3000
-
-MONGODB_URI=YOUR_MONGODB_CONNECTION_STRING
-
-JWT_SECRET=YOUR_SECRET_KEY
-```
-
 ---
 
 ## Start Backend
@@ -206,8 +189,4 @@ npx react-native run-android
 Portfolio:
 https://portfoliobabita.vercel.app/
 
----
 
-# ⭐ Support
-
-If you like this project, consider giving it a ⭐ on GitHub.
