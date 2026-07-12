@@ -89,61 +89,43 @@ RadiantSmiles/
 
 ## Splash Screen
 
-![Splash](screenshots/splash.png)
+![Splash](screenshots/SplashScreen.png)
 
 ---
 
 ## Onboarding
 
-![Onboarding](screenshots/onboarding.png)
-
----
-
-## Login
-
-![Login](screenshots/login.png)
+![Onboarding](screenshots/OnboardingScreen.png)
 
 ---
 
 ## Home
 
-![Home](screenshots/home.png)
+![Home](screenshots/HomeScreen.png)
 
 ---
 
 ## Services
 
-![Services](screenshots/services.png)
+![Services](screenshots/ServicesScreen.png)
 
 ---
 
 ## Doctor
 
-![Doctor](screenshots/doctor.png)
-
----
-
-## Appointment
-
-![Appointment](screenshots/appointment.png)
+![Doctor](screenshots/DoctorScreen.png)
 
 ---
 
 ## Gallery
 
-![Gallery](screenshots/gallery.png)
-
----
-
-## Reviews
-
-![Reviews](screenshots/reviews.png)
+![Gallery](screenshots/Gallery.png)
 
 ---
 
 ## Profile
 
-![Profile](screenshots/profile.png)
+![Profile](screenshots/ProfileScreen.png)
 
 ---
 
