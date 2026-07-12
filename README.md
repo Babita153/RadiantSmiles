@@ -1,97 +1,213 @@
-This is a new [**React Native**](https://reactnative.dev) project, bootstrapped using [`@react-native-community/cli`](https://github.com/react-native-community/cli).
+# 🦷 Radiant Smiles - Dental Clinic Mobile App
 
-# Getting Started
+<p align="center">
+  <img src="frontend/assets/logo.png" width="150"/>
+</p>
 
-> **Note**: Make sure you have completed the [Set Up Your Environment](https://reactnative.dev/docs/set-up-your-environment) guide before proceeding.
+<p align="center">
+A full-stack React Native mobile application for booking dental appointments, managing patient profiles, and exploring dental services.
+</p>
 
-## Step 1: Start Metro
+---
 
-First, you will need to run **Metro**, the JavaScript build tool for React Native.
+## 📌 Overview
 
-To start the Metro dev server, run the following command from the root of your React Native project:
+Radiant Smiles is a modern dental clinic mobile application developed using React Native CLI. The app enables patients to browse services, book appointments, read reviews, view the clinic gallery, and manage their profiles through a clean and user-friendly interface.
 
-```sh
-# Using npm
+This project also includes a Node.js + Express backend with MongoDB and Firebase Authentication.
+
+---
+
+# ✨ Features
+
+- 🔐 Firebase Authentication
+- 👤 User Registration & Login
+- 🦷 Dental Services
+- 👨‍⚕️ Doctor Information
+- 📅 Book Appointment
+- 📖 Appointment History
+- ⭐ Patient Reviews
+- 🖼️ Clinic Gallery
+- 👤 User Profile
+- 📱 Responsive Mobile UI
+- 🔥 REST APIs
+- ☁️ MongoDB Database
+
+---
+
+# 🛠 Tech Stack
+
+## Frontend
+
+- React Native CLI
+- JavaScript
+- React Navigation
+- Axios
+- Context API
+
+## Backend
+
+- Node.js
+- Express.js
+- MongoDB
+- Mongoose
+
+## Authentication
+
+- Firebase Authentication
+
+---
+
+# 📂 Project Structure
+
+```text
+RadiantSmiles/
+│
+├── backend/
+│   ├── src/
+│   ├── server.js
+│   ├── package.json
+│   └── ...
+│
+├── frontend/
+│   ├── assets/
+│   ├── navigation/
+│   ├── screens/
+│   ├── services/
+│   └── ...
+│
+├── screenshots/
+│
+├── App.js
+├── package.json
+└── README.md
+```
+
+---
+
+# 📱 App Screenshots
+
+<p align="center">
+  <img src="./screenshots/SplashScreen.png" width="220" alt="Splash Screen"/>
+  <img src="./screenshots/OnboardingScreen.png" width="220" alt="Onboarding Screen"/>
+  <img src="./screenshots/HomeScreen.png" width="220" alt="Home Screen"/>
+</p>
+
+<p align="center">
+  <img src="./screenshots/ServicesScreen.png" width="220" alt="Services Screen"/>
+  <img src="./screenshots/DoctorScreen.png" width="220" alt="Doctor Screen"/>
+  <img src="./screenshots/Gallery.png" width="220" alt="Gallery Screen"/>
+</p>
+
+<p align="center">
+  <img src="./screenshots/ProfileScreen.png" width="220" alt="Profile Screen"/>
+</p>
+
+# ⚙️ Installation
+
+## Clone Repository
+
+```bash
+git clone https://github.com/YOUR_USERNAME/RadiantSmiles.git
+```
+
+---
+
+## Install Frontend Dependencies
+
+```bash
+npm install
+```
+
+---
+
+## Install Backend Dependencies
+
+```bash
+cd backend
+npm install
+```
+
+---
+
+## Configure Environment Variables
+
+Create a `.env` file inside the `backend` folder.
+
+Example:
+
+```env
+PORT=3000
+
+MONGODB_URI=YOUR_MONGODB_CONNECTION_STRING
+
+JWT_SECRET=YOUR_SECRET_KEY
+```
+
+---
+
+## Start Backend
+
+```bash
+cd backend
+
 npm start
-
-# OR using Yarn
-yarn start
 ```
 
-## Step 2: Build and run your app
+or
 
-With Metro running, open a new terminal window/pane from the root of your React Native project, and use one of the following commands to build and run your Android or iOS app:
-
-### Android
-
-```sh
-# Using npm
-npm run android
-
-# OR using Yarn
-yarn android
+```bash
+npm run dev
 ```
 
-### iOS
+---
 
-For iOS, remember to install CocoaPods dependencies (this only needs to be run on first clone or after updating native deps).
+## Start React Native
 
-The first time you create a new project, run the Ruby bundler to install CocoaPods itself:
-
-```sh
-bundle install
+```bash
+npx react-native start
 ```
 
-Then, and every time you update your native dependencies, run:
+---
 
-```sh
-bundle exec pod install
+## Run Android App
+
+```bash
+npx react-native run-android
 ```
 
-For more information, please visit [CocoaPods Getting Started guide](https://guides.cocoapods.org/using/getting-started.html).
+---
 
-```sh
-# Using npm
-npm run ios
+# 📚 API Modules
 
-# OR using Yarn
-yarn ios
-```
+- Authentication
+- Appointments
+- Reviews
+- User Profile
 
-If everything is set up correctly, you should see your new app running in the Android Emulator, iOS Simulator, or your connected device.
+---
 
-This is one way to run your app — you can also build it directly from Android Studio or Xcode.
+# 🚀 Future Improvements
 
-## Step 3: Modify your app
+- Online Payment Integration
+- Push Notifications
+- Admin Dashboard
+- Appointment Reminders
+- Doctor Availability Calendar
+- Medical Records
+- Dark Mode
 
-Now that you have successfully run the app, let's make changes!
+---
 
-Open `App.tsx` in your text editor of choice and make some changes. When you save, your app will automatically update and reflect these changes — this is powered by [Fast Refresh](https://reactnative.dev/docs/fast-refresh).
+# 👩‍💻 Author
 
-When you want to forcefully reload, for example to reset the state of your app, you can perform a full reload:
+**Babita**
 
-- **Android**: Press the <kbd>R</kbd> key twice or select **"Reload"** from the **Dev Menu**, accessed via <kbd>Ctrl</kbd> + <kbd>M</kbd> (Windows/Linux) or <kbd>Cmd ⌘</kbd> + <kbd>M</kbd> (macOS).
-- **iOS**: Press <kbd>R</kbd> in iOS Simulator.
+Portfolio:
+https://portfoliobabita.vercel.app/
 
-## Congratulations! :tada:
+---
 
-You've successfully run and modified your React Native App. :partying_face:
+# ⭐ Support
 
-### Now what?
-
-- If you want to add this new React Native code to an existing application, check out the [Integration guide](https://reactnative.dev/docs/integration-with-existing-apps).
-- If you're curious to learn more about React Native, check out the [docs](https://reactnative.dev/docs/getting-started).
-
-# Troubleshooting
-
-If you're having issues getting the above steps to work, see the [Troubleshooting](https://reactnative.dev/docs/troubleshooting) page.
-
-# Learn More
-
-To learn more about React Native, take a look at the following resources:
-
-- [React Native Website](https://reactnative.dev) - learn more about React Native.
-- [Getting Started](https://reactnative.dev/docs/environment-setup) - an **overview** of React Native and how setup your environment.
-- [Learn the Basics](https://reactnative.dev/docs/getting-started) - a **guided tour** of the React Native **basics**.
-- [Blog](https://reactnative.dev/blog) - read the latest official React Native **Blog** posts.
-- [`@facebook/react-native`](https://github.com/facebook/react-native) - the Open Source; GitHub **repository** for React Native.
+If you like this project, consider giving it a ⭐ on GitHub.
