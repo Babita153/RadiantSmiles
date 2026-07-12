@@ -85,49 +85,23 @@ RadiantSmiles/
 
 ---
 
-# 📱 Screenshots
+# 📱 App Screenshots
 
-## Splash Screen
+<p align="center">
+  <img src="./screenshots/SplashScreen.png" width="220" alt="Splash Screen"/>
+  <img src="./screenshots/OnboardingScreen.png" width="220" alt="Onboarding Screen"/>
+  <img src="./screenshots/HomeScreen.png" width="220" alt="Home Screen"/>
+</p>
 
-![Splash](screenshots/SplashScreen.png)
+<p align="center">
+  <img src="./screenshots/ServicesScreen.png" width="220" alt="Services Screen"/>
+  <img src="./screenshots/DoctorScreen.png" width="220" alt="Doctor Screen"/>
+  <img src="./screenshots/Gallery.png" width="220" alt="Gallery Screen"/>
+</p>
 
----
-
-## Onboarding
-
-![Onboarding](screenshots/OnboardingScreen.png)
-
----
-
-## Home
-
-![Home](screenshots/HomeScreen.png)
-
----
-
-## Services
-
-![Services](screenshots/ServicesScreen.png)
-
----
-
-## Doctor
-
-![Doctor](screenshots/DoctorScreen.png)
-
----
-
-## Gallery
-
-![Gallery](screenshots/Gallery.png)
-
----
-
-## Profile
-
-![Profile](screenshots/ProfileScreen.png)
-
----
+<p align="center">
+  <img src="./screenshots/ProfileScreen.png" width="220" alt="Profile Screen"/>
+</p>
 
 # ⚙️ Installation
 
