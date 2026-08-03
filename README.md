@@ -57,7 +57,7 @@ RadiantSmiles helps patients book appointments, explore dental services, chat wi
 </td>
 
 <td align="center">
-<img src="screenshots/Welcome" width="220"><br>
+<img src="screenshots/Welcome.png" width="220"><br>
 <b>Onboarding</b>
 </td>
 
