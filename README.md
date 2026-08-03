@@ -49,8 +49,6 @@ RadiantSmiles helps patients book appointments, explore dental services, chat wi
 
 # 📱 Application Screens
 
-# 📱 Application Screens
-
 <table>
 <tr>
 <td align="center">
@@ -59,17 +57,22 @@ RadiantSmiles helps patients book appointments, explore dental services, chat wi
 </td>
 
 <td align="center">
-<img src="screenshots/OnboardingScreen.png" width="220"><br>
+<img src="screenshots/Welcome" width="220"><br>
 <b>Onboarding</b>
 </td>
 
 <td align="center">
-<img src="screenshots/HomeScreen.png" width="220"><br>
-<b>Home</b>
+<img src="screenshots/Onboarding.png" width="220"><br>
+<b>Onboarding</b>
 </td>
 </tr>
 
 <tr>
+<td align="center">
+<img src="screenshots/HomeScreen.png" width="220"><br>
+<b>Home</b>
+</td>
+  
 <td align="center">
 <img src="screenshots/ServicesScreen.png" width="220"><br>
 <b>Services</b>
@@ -78,11 +81,6 @@ RadiantSmiles helps patients book appointments, explore dental services, chat wi
 <td align="center">
 <img src="screenshots/DoctorScreen.png" width="220"><br>
 <b>Doctor</b>
-</td>
-
-<td align="center">
-<img src="screenshots/Gallery.png" width="220"><br>
-<b>Gallery</b>
 </td>
 </tr>
 
@@ -95,6 +93,11 @@ RadiantSmiles helps patients book appointments, explore dental services, chat wi
 <td align="center">
 <img src="screenshots/ProfileScreen.png" width="220"><br>
 <b>Profile</b>
+</td>
+
+<td align="center">
+<img src="screenshots/Gallery.png" width="220"><br>
+<b>Gallery</b>
 </td>
 
 <td></td>
