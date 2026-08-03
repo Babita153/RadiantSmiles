@@ -3,8 +3,9 @@ import React from 'react'
 import { createBottomTabNavigator } from '@react-navigation/bottom-tabs'
 
 import HomeScreen from "../screens/HomeScreen";
-import Contact from "../screens/Contact";
+import ChatScreen from "../screens/ChatScreen";
 import Profile from "../screens/Profile";
+import DrawerNavigator from "./DrawerNavigator";
 
 const Tab = createBottomTabNavigator();
 
@@ -19,7 +20,7 @@ const BottomTabs = () => {
 
       <Tab.Screen style={{ tintColor: "#B347D9" }}
         name="Home"
-        component={HomeScreen}
+        component={DrawerNavigator}
         options={{
           tabBarIcon: () => (
             <Image style = {styles.icon}
@@ -29,12 +30,12 @@ const BottomTabs = () => {
         />
 
         <Tab.Screen style={{ tintColor: "#B347D9" }}
-        name="Contact"
-        component={Contact}
+        name="Chat"
+        component={ChatScreen}
         options={{
           tabBarIcon: () => (
             <Image style = {styles.icon}
-            source = {require("../assets/telephone.png")} />
+            source = {require("../assets/bot.png")} />
           )
         }} 
         />

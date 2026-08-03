@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "462651279912",
+    "project_id": "radiantsmiles-a69c0",
+    "storage_bucket": "radiantsmiles-a69c0.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:462651279912:android:c7bb9e8b9f5bf5abd9431d",
+        "android_client_info": {
+          "package_name": "com.radiantsmiles"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC4PDfwSVsX_HPGSwAoCmLhrVT4GQv2kxM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

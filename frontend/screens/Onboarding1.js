@@ -3,12 +3,12 @@ import { StyleSheet, Text, View, Image, TouchableOpacity } from 'react-native';
 import { SafeAreaView } from 'react-native-safe-area-context';
 import { useNavigation } from '@react-navigation/native';
 
-const Onboarding = () => {
+const Onboarding1 = () => {
   const navigation = useNavigation();
 
   return (
     <SafeAreaView style={styles.container}>
-      <Image source={require('../assets/dental.png')} style={styles.image} />
+      <Image source={require('../assets/dental1.png')} style={styles.image} />
 
       <Text style={styles.title}>Personalized Care{'\n'}for Every Smile</Text>
 
@@ -20,12 +20,12 @@ const Onboarding = () => {
 
       <View style={styles.dots}>
         <View style={styles.dot} />
-        <View style={[styles.dot, styles.activeDot]} />
         <View style={styles.dot} />
+        <View style={[styles.dot, styles.activeDot]} />
       </View>
 
       <View style = {{alignItems:"flex-end"}}>
-        <TouchableOpacity onPress={() => navigation.navigate('Onboarding1')}>
+        <TouchableOpacity onPress={() => navigation.navigate('BottomTabs')}>
           <Text style={styles.nextText}>Next</Text>
         </TouchableOpacity>
       </View>
@@ -33,7 +33,7 @@ const Onboarding = () => {
   );
 };
 
-export default Onboarding;
+export default Onboarding1;
 
 const styles = StyleSheet.create({
   container: {

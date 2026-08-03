@@ -2,6 +2,7 @@ import { StyleSheet, Text, TouchableOpacity, View, Image } from 'react-native';
 import React from 'react';
 import { SafeAreaView } from 'react-native-safe-area-context';
 import { useNavigation } from '@react-navigation/native';
+import { DrawerActions } from '@react-navigation/native';
 
 const HomeScreen = () => {
   const navigation = useNavigation();
@@ -9,6 +10,12 @@ const HomeScreen = () => {
   return (
     <SafeAreaView style={styles.container}>
       <View style={styles.top}>
+
+        <TouchableOpacity
+          onPress={() => navigation.dispatch(DrawerActions.openDrawer())}>
+          <Image source={require('../assets/menu.png')} style={styles.sidemenu} />
+        </TouchableOpacity>
+
         <Text style={{ fontSize: 23 }}>Radiant Smiles</Text>
         <Image
           style={styles.bell}
@@ -64,7 +71,13 @@ const HomeScreen = () => {
         </TouchableOpacity>
       </View>
 
-      <Text style={{ fontSize: 30, fontWeight: 'bold', marginTop: 15, marginBottom:15 }}>
+      <Text
+        style={{
+          fontSize: 30,
+          fontWeight: 'bold',
+          marginTop: 15,
+          marginBottom: 15,
+        }}>
         Why choose us?
       </Text>
 
@@ -104,8 +117,8 @@ const styles = StyleSheet.create({
   container: {
     flex: 1,
     backgroundColor: '#FAF7FC',
-    gap:10,
-    padding:20,
+    gap: 10,
+    padding: 20,
   },
 
   top: {
@@ -114,6 +127,12 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     marginTop: 10,
     marginBottom: 20,
+  },
+
+  sidemenu: {
+    width: 26,
+    height: 26,
+    resizeMode: 'contain',
   },
 
   bell: {
@@ -130,7 +149,7 @@ const styles = StyleSheet.create({
     justifyContent: 'space-between',
     alignItems: 'center',
     marginBottom: 30,
-    height:280,
+    height: 280,
   },
 
   title: {
@@ -154,7 +173,7 @@ const styles = StyleSheet.create({
     borderRadius: 10,
     alignSelf: 'flex-start',
     marginTop: 18,
-    height:50,
+    height: 50,
   },
 
   buttonText: {
@@ -166,7 +185,7 @@ const styles = StyleSheet.create({
   image: {
     width: 150,
     height: 250,
-    borderRadius:20,
+    borderRadius: 20,
   },
 
   menu: {

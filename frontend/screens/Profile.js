@@ -92,6 +92,18 @@ const Profile = () => {
         <TouchableOpacity style={styles.card}>
           <View style={styles.left}>
             <Image
+              source={require('../assets/telephone.png')}
+              style={styles.icon}
+            />
+            <Text style={styles.menuText}>Contact Us</Text>
+          </View>
+
+          <Text style={styles.arrow}>›</Text>
+        </TouchableOpacity>
+
+        <TouchableOpacity style={styles.card}>
+          <View style={styles.left}>
+            <Image
               source={require('../assets/exit.png')}
               style={styles.icon}
             />
@@ -100,6 +112,7 @@ const Profile = () => {
 
           <Text style={styles.arrow}>›</Text>
         </TouchableOpacity>
+
       </ScrollView>
     </SafeAreaView>
   );

@@ -15,6 +15,10 @@ const Contact = () => {
   return (
     <SafeAreaView style={styles.container}>
       <View style={styles.top}>
+        <TouchableOpacity onPress={() => navigation.goBack()}>
+          <Text style={styles.backBtn}>←</Text>
+        </TouchableOpacity>
+
         <Text style={{ fontSize: 27, fontWeight: 'bold', marginBottom: 20 }}>
           Contact Us
         </Text>
@@ -72,8 +76,17 @@ const styles = StyleSheet.create({
 
   top: {
     flexDirection: 'row',
-    padding: 10,
-    gap: 30,
+    // padding: 10,
+    // gap: 30,
+    justifyContent: 'space-between',
+    alignItems: 'center',
+    marginVertical: 15,
+  },
+
+  backBtn: {
+    fontSize: 28,
+    color: '#B44DD6',
+    fontWeight: '700',
   },
 
   mapCard:{

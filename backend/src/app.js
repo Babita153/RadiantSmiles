@@ -10,14 +10,14 @@ app.use(express.urlencoded({ extended: true }));
 // Routes
 const authRoutes = require("./routes/auth.routes");
 const appointmentRoutes = require("./routes/appointment.routes");
-const serviceRoutes = require("./routes/service.routes");
 const reviewRoutes = require("./routes/review.routes");
+const aiRoutes = require("./routes/ai.routes");
 
 // APIs
 app.use("/api/auth", authRoutes);
 app.use("/api/appointments", appointmentRoutes);
-app.use("/api/services", serviceRoutes);
 app.use("/api/reviews", reviewRoutes);
+app.use("/api/ai", aiRoutes);
 
 // Home Route
 app.get("/", (req, res) => {
