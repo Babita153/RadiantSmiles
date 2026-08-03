@@ -49,53 +49,57 @@ RadiantSmiles helps patients book appointments, explore dental services, chat wi
 
 # 📱 Application Screens
 
-## Splash Screen
+# 📱 Application Screens
 
-![Splash Screen](screenshots/SplashScreen.png)
+<table>
+<tr>
+<td align="center">
+<img src="screenshots/SplashScreen.png" width="220"><br>
+<b>Splash</b>
+</td>
 
----
+<td align="center">
+<img src="screenshots/OnboardingScreen.png" width="220"><br>
+<b>Onboarding</b>
+</td>
 
-## Onboarding Screen
+<td align="center">
+<img src="screenshots/HomeScreen.png" width="220"><br>
+<b>Home</b>
+</td>
+</tr>
 
-![Onboarding Screen](screenshots/OnboardingScreen.png)
+<tr>
+<td align="center">
+<img src="screenshots/ServicesScreen.png" width="220"><br>
+<b>Services</b>
+</td>
 
----
+<td align="center">
+<img src="screenshots/DoctorScreen.png" width="220"><br>
+<b>Doctor</b>
+</td>
 
-## Home Screen
+<td align="center">
+<img src="screenshots/Gallery.png" width="220"><br>
+<b>Gallery</b>
+</td>
+</tr>
 
-![Home Screen](screenshots/HomeScreen.png)
+<tr>
+<td align="center">
+<img src="screenshots/ContactScreen.png" width="220"><br>
+<b>Contact</b>
+</td>
 
----
+<td align="center">
+<img src="screenshots/ProfileScreen.png" width="220"><br>
+<b>Profile</b>
+</td>
 
-## Services Screen
-
-![Services Screen](screenshots/ServicesScreen.png)
-
----
-
-## Doctor Screen
-
-![Doctor Screen](screenshots/DoctorScreen.png)
-
----
-
-## Gallery Screen
-
-![Gallery Screen](screenshots/Gallery.png)
-
----
-
-## Contact Screen
-
-![Contact Screen](screenshots/ContactScreen.png)
-
----
-
-## Profile Screen
-
-![Profile Screen](screenshots/ProfileScreen.png)
-
----
+<td></td>
+</tr>
+</table>
 
 # 🤖 AI Chatbot
 
